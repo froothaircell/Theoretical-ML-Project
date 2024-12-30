@@ -115,8 +115,6 @@ def main():
             torch.save(trans_enc_model.state_dict(), "best_transformer_encoder.pth")
 
     # -----------------------------------------------------
-    # Evaluate best model(s) on test set if desired
-    # (Below is an example for the Transformer Encoder; replicate for others if needed)
     trans_enc_model.load_state_dict(torch.load("best_transformer_encoder.pth"))
     test_loss, test_metrics = validate_one_epoch(trans_enc_model, test_loader, device=device)
     print("\n[Final Test - Transformer Encoder]")
