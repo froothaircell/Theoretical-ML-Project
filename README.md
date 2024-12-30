@@ -5,13 +5,13 @@ Welcome to the repository for **Comparative Study on Deep Learning Models for Se
 
 ---
 
-Overview
+## Overview
 
 Bounding box regression is essential for object detection tasks in computer vision, enabling precise localization of objects. While supervised methods require extensive labeled datasets, this study explores the semi-supervised approach, leveraging both labeled and unlabeled data. Our work compares the performance of four prominent deep learning architectures under these conditions.
 
 ---
 
-Key Features
+## Key Features
 
 Deep Learning Models Evaluated
 - MLP (Multi-Layer Perceptron): Baseline feed-forward architecture.
@@ -19,24 +19,25 @@ Deep Learning Models Evaluated
 - Vision Transformer (ViT)**: Utilizes self-attention mechanisms for global context.
 - Transformer Encoder: A versatile architecture for capturing dependencies.
 
-Dataset
+## Dataset
 - Modified COCO 2017 Dataset: Adapted for semi-supervised learning by introducing unlabeled data.  
   Preprocessing includes normalization and resizing to \(224 \times 224\).
 
-Evaluation Metrics
+## Evaluation Metrics
 - Mean Squared Error (MSE)
 - Mean Absolute Error (MAE)
 - R-squared (\(R^2\))
 
-Highlights
+## Highlights
 - Automated preprocessing pipeline for data preparation.
 - Comparative analysis of model performance on semi-supervised tasks.
 - Insights into trade-offs between model complexity, accuracy, and generalization.
 
 ---
 
-Repository Structure
+## Repository Structure
 
+```
 plaintext
 repo-name/
 ├── data/            # datasets and preprocessing scripts
@@ -47,7 +48,7 @@ repo-name/
 ├── results/         # Saved results and visualizations
 ├── README.md        # Project documentation
 └── main.py          # Primary entry script
-
+```
 
 ---
 
