@@ -1,30 +1,39 @@
 # Comparative Study on Deep Learning Models for Semi-Supervised Bounding Box Regression
-This repository offers a detailed framework for comparing four distinct deep learning models on the task of semi-supervised bounding box regression. The project delivers valuable insights into the performance and behavior of these models in addressing this challenging task.
-___
-## Features
-Features
-Deep Learning Models
 
-1) MLP (Multi-Layer Perceptron)
-2) CNN (Convolutional Neural Network)
-3) ViT (Vision Transformer)
-4) Transformer Encoder
-5) Dataset Preprocessing and Modification
+This repository provides a comprehensive framework for evaluating the performance of four distinct deep learning models in the context of semi-supervised bounding box regression. The project aims to deliver actionable insights into the efficacy and behavior of these models in addressing this complex and significant task.
 
-**Automated pipeline for normalization and resizing
-****Modified COCO 2017 dataset for experimentation
-****Evaluation Metrics
-Regression-based metrics such as MSE, MAE, and R-squared
-Comparative Analysis
-___
-## Repository Structure 
+---
 
+## Key Features
+
+### **Deep Learning Models**
+- **MLP (Multi-Layer Perceptron)**
+- **CNN (Convolutional Neural Network)**
+- **ViT (Vision Transformer)**
+- **Transformer Encoder**
+
+### **Dataset Preprocessing and Modification**
+- Automated pipeline for data normalization and resizing.
+- Utilizes a **modified COCO 2017 dataset** tailored for experimentation.
+
+### **Evaluation Metrics**
+- Regression-based metrics to ensure robust model evaluation:
+  - Mean Squared Error (MSE)
+  - Mean Absolute Error (MAE)
+  - R-squared (R²)
+
+### **Comparative Analysis**
+- Systematic comparison of model performance, providing detailed insights into strengths and weaknesses across models.
+
+---
+
+## Repository Structure
+
+```plaintext
 LoanApprovalPrediction-XAI/
 ├── data/            # Sample datasets and preprocessing scripts
-├── models/          # DL model architectures (MLP, CNN, Transformer, Autoencoder)
-├── notebooks/       # Jupyter notebooks for experimentation
-├── scripts/         # Scripts like transformer_encoder.py
-├── utils/           # Utility scripts such as train.py
+├── models/          # Deep learning model architectures (MLP, CNN, ViT, Transformer)
+├── notebooks/       # Jupyter notebooks for experimentation and analysis
+├── scripts/         # Core scripts for training and evaluation (e.g., transformer_encoder.py)
+├── utils/           # Utility scripts such as train.py for model training and pipeline integration
 └── README.md        # Project documentation
-
-___
