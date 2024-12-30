@@ -13,11 +13,11 @@ Bounding box regression is essential for object detection tasks in computer visi
 
 ## Key Features
 
-### **Deep Learning Models Evaluated**
-- **MLP (Multi-Layer Perceptron)**: Baseline feed-forward architecture.
-- **CNN (Convolutional Neural Network)**: Captures local spatial features effectively.
-- **Vision Transformer (ViT)**: Utilizes self-attention mechanisms for global context.
-- **Transformer Encoder**: A versatile architecture for capturing dependencies.
+### Deep Learning Models Evaluated
+- MLP (Multi-Layer Perceptron): Baseline feed-forward architecture.
+- CNN (Convolutional Neural Network)**: Captures local spatial features effectively.
+- Vision Transformer (ViT)**: Utilizes self-attention mechanisms for global context.
+- Transformer Encoder: A versatile architecture for capturing dependencies.
 
 ### **Dataset**
 - **Modified COCO 2017 Dataset**: Adapted for semi-supervised learning by introducing unlabeled data.  
