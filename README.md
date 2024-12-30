@@ -2,18 +2,29 @@
 This repository offers a detailed framework for comparing four distinct deep learning models on the task of semi-supervised bounding box regression. The project delivers valuable insights into the performance and behavior of these models in addressing this challenging task.
 ___
 ## Features
-- Deep Learning Models: Implementations of Multi-Layer Perceptron (MLP), Convolutional Neural Network (CNN), Vision Transformer (ViT), and Transformer Encoder.
-- Dataset Preprocessing and Modification: Automated Pipeline for normalization and resizing. Modified COCOS-2017 dataset
-- Evaluation Metrics: Comprehensive, regression-based metrics such as MSE, MAE and R-Squared value.
-- Comparative Analysis: Extensive exploration into performance of models on bounding box regression.
+Features
+Deep Learning Models
+
+1) MLP (Multi-Layer Perceptron)
+2) CNN (Convolutional Neural Network)
+3) ViT (Vision Transformer)
+4) Transformer Encoder
+5) Dataset Preprocessing and Modification
+
+**Automated pipeline for normalization and resizing
+****Modified COCO 2017 dataset for experimentation
+****Evaluation Metrics
+Regression-based metrics such as MSE, MAE, and R-squared
+Comparative Analysis
 ___
 ## Repository Structure 
 
-```sh
 LoanApprovalPrediction-XAI/
-├── data/                  # Sample datasets and preprocessing scripts
-├── models/                # DL model architectures (MLP, CNN, Transformer, Autoencoder)
-├── notebooks/             # Jupyter notebooks for experimentation
-└── README.md              # Project documentation
-```
+├── data/            # Sample datasets and preprocessing scripts
+├── models/          # DL model architectures (MLP, CNN, Transformer, Autoencoder)
+├── notebooks/       # Jupyter notebooks for experimentation
+├── scripts/         # Scripts like transformer_encoder.py
+├── utils/           # Utility scripts such as train.py
+└── README.md        # Project documentation
+
 ___
