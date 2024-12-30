@@ -1,4 +1,4 @@
-```markdown
+markdown
 # Comparative Study on Deep Learning Models for Semi-Supervised Bounding Box Regression
 
 Welcome to the repository for **Comparative Study on Deep Learning Models for Semi-Supervised Bounding Box Regression**. This repository contains the code, datasets, and analysis for evaluating the performance of different deep learning architectures in semi-supervised bounding box regression tasks.
@@ -37,16 +37,17 @@ Highlights
 
 Repository Structure
 
-```plaintext
+plaintext
 repo-name/
 ├── data/            # datasets and preprocessing scripts
 ├── models/          # DL model architectures (MLP, CNN, Transformer, ViT)
 ├── notebooks/       # Jupyter notebooks (practice)
-├── scripts/         # Training and evaluation scripts
+├── scripts/         # Training scripts
 ├── utils/           # Helper scripts (e.g., data loaders, metrics)
 ├── results/         # Saved results and visualizations
-└── README.md        # Project documentation
-```
+├── README.md        # Project documentation
+└── main.py          # Primary entry script
+
 
 ---
 
@@ -71,6 +72,10 @@ repo-name/
 ## Contact and Acknowledgments
 
 For questions, feedback, or collaboration opportunities, please reach out:
+
+- **Name:** Syed Farasat Ali
+- **Email:** sali666@uwo.ca
+- **Affiliation:** MSc Student, Western University, London Ontario
 
 - **Name:** Memoona Aziz  
 - **Email:** maziz86@uwo.ca  
