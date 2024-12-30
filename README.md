@@ -1,15 +1,10 @@
-markdown
 # Comparative Study on Deep Learning Models for Semi-Supervised Bounding Box Regression
 
 Welcome to the repository for **Comparative Study on Deep Learning Models for Semi-Supervised Bounding Box Regression**. This repository contains the code, datasets, and analysis for evaluating the performance of different deep learning architectures in semi-supervised bounding box regression tasks.
 
----
-
 ## Overview
 
-Bounding box regression is essential for object detection tasks in computer vision, enabling precise localization of objects. While supervised methods require extensive labeled datasets, this study explores the semi-supervised approach, leveraging both labeled and unlabeled data. Our work compares the performance of four prominent deep learning architectures under these conditions.
-
----
+Bounding box regression is essential for object detection tasks in computer vision, enabling precise localization of objects. While supervised methods require extensive labeled datasets, this study explores the semi-supervised approach, leveraging both labeled and unlabeled data. Our work compares the performance of four prominent deep learning architectures under these conditions
 
 ## Key Features
 
@@ -33,12 +28,9 @@ Deep Learning Models Evaluated
 - Comparative analysis of model performance on semi-supervised tasks.
 - Insights into trade-offs between model complexity, accuracy, and generalization.
 
----
-
 ## Repository Structure
 
 ```
-plaintext
 repo-name/
 ├── data/            # datasets and preprocessing scripts
 ├── models/          # DL model architectures (MLP, CNN, Transformer, ViT)
@@ -49,8 +41,6 @@ repo-name/
 ├── README.md        # Project documentation
 └── main.py          # Primary entry script
 ```
-
----
 
 ## Installation
 
