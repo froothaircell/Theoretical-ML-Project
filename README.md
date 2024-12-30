@@ -54,8 +54,8 @@ repo-name/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/memoonaaziz/bounding-box-regression.git
-   cd bounding-box-regression
+   git clone https://github.com/froothaircell/Theoretical-ML-Project/tree/main.git
+   cd desired file/bounding-box-regression
    ```
 
 2. **Set Up Virtual Environment**
