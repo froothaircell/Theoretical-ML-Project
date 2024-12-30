@@ -100,5 +100,3 @@ For questions, feedback, or collaboration opportunities, please reach out:
 
 Special thanks to the open-source community and the creators of the COCO dataset for enabling this research.
 ```
-
-You can directly copy and paste this into your `README.md`. Let me know if there’s anything else you’d like to adjust!
