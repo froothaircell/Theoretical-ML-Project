@@ -5,17 +5,15 @@ import torch
 from torch.utils.data import Dataset
 import torchvision.transforms as T
 
-# Modify these paths as needed
 BASE_DIR = "coco"
-ANNOTATION_FILE = os.path.join(BASE_DIR, "annotations_subset.json")  # Suppose you have a reduced COCO-style JSON
-IMAGE_DIR = os.path.join(BASE_DIR, "images_subset")                  # Suppose images are copied here
+ANNOTATION_FILE = os.path.join(BASE_DIR, "annotations_subset.json") 
+IMAGE_DIR = os.path.join(BASE_DIR, "images_subset")                 
 
-# Image size used in the paper
 IMAGE_SIZE = (224, 224)
 
 class COCOCustomDataset(Dataset):
     """
-    Custom dataset for bounding box regression as described in the paper.
+    Custom dataset for bounding box regression.
     Each sample returns an image (tensor) and its bounding box coordinates [x, y, w, h].
     Some bounding boxes may be missing for semi-supervised setting.
     """
